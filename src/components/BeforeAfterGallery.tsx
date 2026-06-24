@@ -30,7 +30,7 @@ export default function BeforeAfterGallery() {
     {
       title: 'Full Arch Restoration',
       treatment: 'Dental Implants & Zirconia Bridges',
-      beforeUrl: 'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=400&auto=format&fit=crop',
+      beforeUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=400&auto=format&fit=crop',
       afterUrl: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=400&auto=format&fit=crop',
       description: 'Replaced missing molars, fully restored chewing force, and rebuilt natural gum line contouring.'
     }
@@ -48,7 +48,7 @@ export default function BeforeAfterGallery() {
   };
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 px-4 bg-white reveal">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

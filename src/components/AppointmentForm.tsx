@@ -36,6 +36,11 @@ export default function AppointmentForm({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [submitSuccess, setSubmitSuccess] = useState<boolean>(false);
+  const [minDate, setMinDate] = useState<string>('');
+
+  useEffect(() => {
+    setMinDate(new Date().toISOString().split('T')[0]);
+  }, []);
 
   const timeSlots = [
     '09:00 AM',
@@ -213,7 +218,7 @@ export default function AppointmentForm({
             </label>
             <input
               type="date"
-              min={new Date().toISOString().split('T')[0]}
+              min={minDate || undefined}
               {...register('preferredDate')}
               className={`w-full rounded-xl border px-4 py-3 text-sm focus:outline-none transition-all ${
                 errors.preferredDate ? 'border-rose-300 focus:border-rose-500' : 'border-slate-200 focus:border-brand-teal'

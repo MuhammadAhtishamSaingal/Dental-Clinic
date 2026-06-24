@@ -37,19 +37,21 @@ export default function Header() {
 
   return (
     <>
-      {/* Top Banner / Emergency Banner */}
-      <div className="bg-brand-blue text-white text-[11px] sm:text-xs py-1.5 px-4 flex justify-between items-center border-b border-white/10 relative z-50 font-medium">
-        <div className="flex items-center gap-1.5 tracking-wide">
-          <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span>Emergency Care Available</span>
+      {/* Top Banner / Marquee Scrolling Banner */}
+      <div className="bg-[#f3e883] text-black py-2.5 px-4 flex justify-between items-center relative z-50 overflow-hidden font-bold border-b border-black/10 text-[10px] sm:text-xs">
+        <div className="flex-1 overflow-hidden relative flex items-center mr-8">
+          <div className="animate-marquee flex gap-12 whitespace-nowrap uppercase tracking-wider text-[10px] sm:text-xs text-black">
+            <span>Mon–Sat | Emergency Care Available | Karachi</span>
+            <span>Mon–Sat | Emergency Care Available | Karachi</span>
+            <span>Mon–Sat | Emergency Care Available | Karachi</span>
+            <span>Mon–Sat | Emergency Care Available | Karachi</span>
+            <span>Mon–Sat | Emergency Care Available | Karachi</span>
+          </div>
         </div>
-        <div className="flex items-center gap-4">
-          <a
-            href="tel:+923070984307"
-            className="flex items-center gap-1.5 font-semibold text-white/90 hover:text-brand-teal transition-colors"
-          >
-            <Phone className="w-3 h-3 text-brand-teal" />
-            <span>Emergency: +92 307 0984307</span>
+        <div className="flex items-center gap-1.5 shrink-0 z-10 bg-[#f3e883] pl-4 font-black text-black">
+          <Phone className="w-3.5 h-3.5 text-black" />
+          <a href="tel:+923070984307" className="hover:underline text-black text-[10px] sm:text-xs">
+            +92 307 0984307
           </a>
         </div>
       </div>
@@ -57,8 +59,8 @@ export default function Header() {
       {/* Main Sticky Navigation */}
       <header
         className={`sticky top-0 z-40 transition-all duration-300 ${isScrolled
-          ? 'glass-header shadow-sm border-b border-slate-100/60 py-2.5'
-          : 'bg-white py-3.5 border-b border-slate-100'
+          ? 'glass-header shadow-sm border-b border-slate-800 py-2.5'
+          : 'bg-brand-dark py-3.5 border-b border-slate-800'
           }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">

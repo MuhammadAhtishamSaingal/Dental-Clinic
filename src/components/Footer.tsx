@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Sparkles } from 'lucide-react';
 import { servicesData } from '@/data/services';
@@ -8,6 +8,11 @@ import { servicesData } from '@/data/services';
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -154,7 +159,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-brand-teal shrink-0" />
-                <a href="mailto:appointments@premiumdental.com" className="hover:text-white transition-colors">appointments@premiumdental.com</a>
+                <a href="mailto:beverlyhillsofficiallll@gmail.com" className="hover:text-white transition-colors">beverlyhillsofficiallll@gmail.com</a>
               </div>
             </div>
           </div>
@@ -162,7 +167,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-850 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Premium Dental Clinic Group. All rights reserved.</p>
+          <p>&copy; {currentYear ?? 2026} Premium Dental Clinic Group. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy-policy" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>
             <Link href="/terms-conditions" className="hover:text-slate-400 transition-colors">Terms & Conditions</Link>

@@ -14,7 +14,7 @@ export default function InsurancePartners() {
   ];
 
   return (
-    <section className="py-12 bg-white border-y border-slate-100 px-4">
+    <section className="py-12 bg-white border-y border-slate-100 px-4 reveal">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Left tagline */}
         <div className="flex items-center gap-3 shrink-0 text-center md:text-left flex-col md:flex-row">

@@ -17,6 +17,11 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import Footer from '@/components/Footer';
 import JsonLdSchema from '@/components/JsonLdSchema';
 
+import AestheticsSection from '@/components/AestheticsSection';
+import FacilitiesSection from '@/components/FacilitiesSection';
+import PersonalizedCareSection from '@/components/PersonalizedCareSection';
+import OutcomesSection from '@/components/OutcomesSection';
+
 import { servicesData } from '@/data/services';
 import { doctorsData } from '@/data/doctors';
 import { blogsData } from '@/data/blogs';
@@ -77,11 +82,8 @@ export default function Home() {
         {/* Section 1: Hero */}
         <Hero />
 
-        {/* Section 2: Emergency Care Banner */}
-        <EmergencyBanner />
-
-        {/* Section 3: About Clinic Overview */}
-        <section className="py-24 px-4 bg-white">
+        {/* Section 2: Welcome Section (Clinic Intro & Premium Dental + Aesthetic positioning) */}
+        <section className="py-24 px-4 bg-white reveal">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             {/* Left Image grid */}
             <div className="lg:col-span-6 grid grid-cols-2 gap-4">
@@ -96,7 +98,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-44 rounded-3xl overflow-hidden border border-slate-100 shadow-md">
                   <img
-                    src="https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=400&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=400&auto=format&fit=crop"
                     alt="Doctor checking tooth"
                     className="object-cover w-full h-full"
                     loading="lazy"
@@ -125,18 +127,17 @@ export default function Home() {
 
             {/* Right text overview */}
             <div className="lg:col-span-6 flex flex-col items-start">
-              <p className="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3">
-                About Our Clinic
+              <p className="text-xs font-bold uppercase tracking-widest text-[#f3e883] mb-3">
+                Welcome to Beverly Hills Clinic
               </p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark leading-tight">
-                Where Science Meets Cosmetic Artistry
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#000000] leading-tight">
+                Premier Dental & Advanced Aesthetic Clinic
               </h2>
               <p className="text-slate-500 text-sm sm:text-md mt-6 leading-relaxed">
-                At our state-of-the-art clinic, we believe that exceptional dentistry is built on a foundation of trust, comfort, and unmatched expertise. 
-                Led by Dr. Sarah Mitchell, our team of board-certified dental specialists provides comprehensive, anxiety-free treatments tailored to your unique smile targets.
+                Welcome to Beverly Hills Clinic, Karachi's premier destination for integrated dental excellence and advanced facial aesthetic care. We believe that true cosmetic artistry is built on a foundation of clinical science, absolute comfort, and unmatched technical precision.
               </p>
               <p className="text-slate-500 text-sm mt-4 leading-relaxed">
-                From simple diagnostic checkups to complex multi-tooth cosmetic veneers and guided implant surgery, we utilize FDA-approved, cutting-edge equipment to guarantee outstanding comfort and longevity.
+                Our board-certified dental and aesthetic specialists merge state-of-the-art diagnostics—such as 3D CBCT digital scanning—with micro-aesthetic injectables, laser skin resurfacing, and advanced orthodontics. Here, your health and facial harmony are treated in a cohesive, luxury clinic setting designed for an outstanding patient experience.
               </p>
 
               {/* Stat callouts */}
@@ -163,7 +164,7 @@ export default function Home() {
 
               <Link
                 href="/about"
-                className="mt-10 inline-flex items-center gap-1 text-sm font-bold text-brand-teal hover:text-brand-teal-hover transition-colors group"
+                className="mt-10 inline-flex items-center gap-1 text-sm font-bold text-brand-blue hover:text-brand-blue-hover transition-colors group"
               >
                 <span>Read More About Us</span>
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
@@ -172,20 +173,20 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Section 4: Why Choose Us */}
-        <WhyChooseUs />
+        {/* Emergency Care Banner */}
+        <EmergencyBanner />
 
-        {/* Section 5: Services Overview */}
-        <section className="py-24 px-4 bg-white">
+        {/* Section 3: Comprehensive Dental Services (General, Cosmetic, Specialty) */}
+        <section className="py-24 px-4 bg-white reveal">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
               <div className="max-w-2xl">
-                <p className="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#f3e883] mb-3">
                   Our Specializations
                 </p>
-                <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark leading-tight">
-                  Advanced Dental Solutions for All Patient Needs
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-[#000000] leading-tight">
+                  Comprehensive Dental Services
                 </h2>
               </div>
               <Link
@@ -194,6 +195,37 @@ export default function Home() {
               >
                 View All 18 Services
               </Link>
+            </div>
+
+            {/* 3 Pillars Category Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+              <div className="bg-brand-light border border-slate-100 rounded-3xl p-8 hover:shadow-md transition-all duration-300">
+                <div className="w-10 h-10 rounded-xl bg-white border border-slate-50 flex items-center justify-center text-brand-blue font-bold shadow-sm mb-4">
+                  01
+                </div>
+                <h3 className="font-extrabold text-lg text-brand-dark mb-2">General Dentistry</h3>
+                <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                  Comprehensive exams, hygiene scaling, fillings, root canals, and pediatric care focusing on long-term prevention.
+                </p>
+              </div>
+              <div className="bg-brand-light border border-slate-100 rounded-3xl p-8 hover:shadow-md transition-all duration-300">
+                <div className="w-10 h-10 rounded-xl bg-white border border-slate-50 flex items-center justify-center text-brand-blue font-bold shadow-sm mb-4">
+                  02
+                </div>
+                <h3 className="font-extrabold text-lg text-brand-dark mb-2">Cosmetic Treatments</h3>
+                <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                  Handcrafted porcelain veneers, laser teeth whitening, and complete artistic smile makeovers.
+                </p>
+              </div>
+              <div className="bg-brand-light border border-slate-100 rounded-3xl p-8 hover:shadow-md transition-all duration-300">
+                <div className="w-10 h-10 rounded-xl bg-white border border-slate-50 flex items-center justify-center text-brand-blue font-bold shadow-sm mb-4">
+                  03
+                </div>
+                <h3 className="font-extrabold text-lg text-brand-dark mb-2">Specialty Care</h3>
+                <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                  Guided titanium implant surgeries, Invisalign orthodontic aligners, and complex oral restorations.
+                </p>
+              </div>
             </div>
 
             {/* Service cards grid */}
@@ -205,52 +237,93 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Section 6: Meet Our Doctors */}
-        <section className="py-24 px-4 bg-brand-light">
+        {/* Section 4: Advanced Aesthetic Treatments (NEW) */}
+        <AestheticsSection />
+
+        {/* Section 5: Experienced Team Section (Doctors, Clinical, Support staff) */}
+        <section className="py-24 px-4 bg-brand-light reveal">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <p className="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3">
+              <p className="text-xs font-bold uppercase tracking-widest text-[#f3e883] mb-3">
                 Expert Medical Team
               </p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark leading-tight">
-                Meet Our Board-Certified Dental Specialists
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#000000] leading-tight">
+                Our Experienced Clinical Team
               </h2>
               <p className="text-slate-500 text-sm mt-4 leading-relaxed">
-                Our clinicians combine rigorous international fellowships with years of reconstructive experience to ensure the highest standards of safety.
+                Meet our specialists, clinicians, and coordinators committed to delivering safe and aesthetic outcomes.
               </p>
             </div>
 
             {/* Doctors Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {doctorsData.map((doctor) => (
                 <DoctorCard key={doctor.slug} doctor={doctor} />
               ))}
             </div>
+
+            {/* Clinical & Support Staff credentials */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-12 border-t border-slate-200/60">
+              <div className="bg-white border border-slate-50 rounded-3xl p-8 shadow-sm flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-brand-light text-brand-blue flex items-center justify-center font-bold shrink-0">
+                  <span className="text-[#f3e883] text-xs">C</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-md text-[#000000] mb-1">Clinical & Nursing Staff</h4>
+                  <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                    Our team includes registered nurse practitioners, certified dental hygienists, and surgical assistants trained extensively in aseptic protocol, surgical preparation, and patient sedation safety.
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white border border-slate-50 rounded-3xl p-8 shadow-sm flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-brand-light text-brand-blue flex items-center justify-center font-bold shrink-0">
+                  <span className="text-[#f3e883] text-xs">S</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-md text-[#000000] mb-1">Administrative & Support Staff</h4>
+                  <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                    Our front-desk concierge and dedicated patient coordinators coordinate your booking schedules, submit insurance claims directly, and monitor your personalized follow-up and aftercare tracking.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Section 7: Before & After Smile Gallery */}
+        {/* Section 6: State-of-the-Art Facilities Section */}
+        <FacilitiesSection />
+
+        {/* Section 7: Personalized Care Section */}
+        <PersonalizedCareSection />
+
+        {/* Section 8: Commitment to Outcomes Section */}
+        <OutcomesSection />
+
+        {/* Why Choose Us */}
+        <WhyChooseUs />
+
+        {/* Before & After Smile Gallery */}
         <BeforeAfterGallery />
 
-        {/* Section 8: Patient Testimonials */}
+        {/* Patient Testimonials */}
         <Testimonials />
 
-        {/* Section 9: Insurance Partners */}
+        {/* Insurance Partners */}
         <InsurancePartners />
 
-        {/* Section 10: Google Reviews Trust Widget */}
+        {/* Google Reviews Trust Widget */}
         <GoogleReviews />
 
-        {/* Section 11: FAQ Section */}
-        <section className="py-24 px-4 bg-brand-light">
+        {/* FAQ Section */}
+        <section className="py-24 px-4 bg-brand-light reveal">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <p className="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3">
+              <p className="text-xs font-bold uppercase tracking-widest text-[#f3e883] mb-3">
                 Got Questions?
               </p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark leading-tight">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#000000] leading-tight">
                 Frequently Asked Questions
               </h2>
               <p className="text-slate-500 text-sm mt-4 leading-relaxed">
@@ -264,7 +337,7 @@ export default function Home() {
             <div className="text-center mt-12">
               <Link
                 href="/faq"
-                className="inline-flex items-center gap-1 text-sm font-bold text-brand-teal hover:text-brand-teal-hover transition-colors group"
+                className="inline-flex items-center gap-1 text-sm font-bold text-brand-blue hover:text-brand-blue-hover transition-colors group"
               >
                 <span>Read Full FAQ Document</span>
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
@@ -273,16 +346,16 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Section 12: Latest Blogs */}
-        <section className="py-24 px-4 bg-white">
+        {/* Latest Blogs */}
+        <section className="py-24 px-4 bg-white reveal">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
               <div className="max-w-2xl">
-                <p className="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#f3e883] mb-3">
                   Dental Insights
                 </p>
-                <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-dark leading-tight">
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-[#000000] leading-tight">
                   Latest Articles & Patient Oral Health Tips
                 </h2>
               </div>
@@ -305,11 +378,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Section 13: Appointment Booking CTA */}
+        {/* Consultation CTA Section */}
         <CTASection />
 
         {/* Section 14: Contact Information Overview & Section 15: Google Maps */}
-        <section className="py-24 px-4 bg-white border-t border-slate-50">
+        <section className="py-24 px-4 bg-white border-t border-slate-50 reveal">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-stretch">
             {/* Left Contact Column */}
             <div className="lg:col-span-5 flex flex-col justify-between">
@@ -360,10 +433,10 @@ export default function Home() {
                       <h4 className="font-bold text-brand-dark text-xs sm:text-sm">General Email</h4>
                       <p className="text-xs sm:text-sm text-slate-500 mt-1">
                         <a
-                          href="mailto:appointments@premiumdental.com"
+                          href="mailto:beverlyhillsofficiallll@gmail.com"
                           className="hover:text-brand-teal transition-colors"
                         >
-                          appointments@premiumdental.com
+                          beverlyhillsofficiallll@gmail.com
                         </a>
                       </p>
                     </div>

@@ -66,7 +66,7 @@ export const doctorsData: Doctor[] = [
     slug: 'dr-elena-rostova',
     name: 'Dr. Elena Rostova, DDS',
     role: 'Specialist Orthodontist',
-    imageUrl: 'https://images.unsplash.com/photo-1594824813573-246434e33963?q=80&w=600&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop',
     qualification: 'Doctor of Dental Surgery & Orthodontic Residency - University of Pennsylvania School of Dental Medicine',
     experience: '10+ Years in Invisalign and Fixed Orthodontics',
     certifications: [

@@ -148,7 +148,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Pain-Free Root Canal Treatment & Endodontics | Premium Clinic',
     seoDescription: 'Relieve tooth pain and save your natural tooth. Pain-free root canal therapy using advanced rotary endodontics and bio-sealants.',
-    imageUrl: 'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop'
   },
   {
     slug: 'braces',
@@ -382,7 +382,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Gum Disease Treatment & Periodontal Therapy | Clinic',
     seoDescription: 'Treat bleeding gums, swelling, and bad breath. Professional deep scaling and root planing (SRP) and periodontal pocket therapies.',
-    imageUrl: 'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop'
   },
   {
     slug: 'tooth-extraction',
@@ -408,7 +408,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Safe & Painless Tooth Extraction | Dental Surgery Clinic',
     seoDescription: 'Gentle extraction of damaged, decayed, or crowded teeth. Painless extraction techniques with comprehensive post-operative care and replacement options.',
-    imageUrl: 'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop'
   },
   {
     slug: 'wisdom-tooth-removal',
@@ -434,7 +434,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Impacted Wisdom Teeth Extraction & Surgery | Clinic',
     seoDescription: 'Relieve pain and prevent tooth crowding. Safe surgical extraction of impacted wisdom teeth. Experienced oral surgeons and sedation options.',
-    imageUrl: 'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop'
   },
   {
     slug: 'smile-makeover',

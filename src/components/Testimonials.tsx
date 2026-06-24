@@ -6,7 +6,7 @@ import { reviewsData } from '@/data/reviews';
 
 export default function Testimonials() {
   return (
-    <section className="py-20 px-4 bg-brand-light relative overflow-hidden">
+    <section className="py-20 px-4 bg-brand-light relative overflow-hidden reveal">
       {/* Subtle grid accent */}
       <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none"></div>
 

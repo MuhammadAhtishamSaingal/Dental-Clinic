@@ -5,7 +5,7 @@ import { Star, MapPin, ExternalLink } from 'lucide-react';
 
 export default function GoogleReviews() {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-white reveal">
       <div className="max-w-5xl mx-auto bg-gradient-to-br from-brand-light to-white border border-slate-100 rounded-3xl p-8 sm:p-12 shadow-xl shadow-brand-blue/5 flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute -top-12 -left-12 w-24 h-24 rounded-full bg-brand-teal/5 blur-xl"></div>

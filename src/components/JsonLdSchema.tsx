@@ -13,7 +13,7 @@ export default function JsonLdSchema({ type, data }: SchemaProps) {
     '@name': 'Premium Dental Clinic',
     'image': 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop',
     'telephone': '+92-307-0984307',
-    'email': 'appointments@premiumdental.com',
+    'email': 'beverlyhillsofficiallll@gmail.com',
     'address': {
       '@type': 'PostalAddress',
       'streetAddress': '123 Medical Plaza, Block 5, Clifton',
@@ -70,7 +70,7 @@ export default function JsonLdSchema({ type, data }: SchemaProps) {
       '@type': 'BlogPosting',
       'headline': data.title,
       'image': data.imageUrl,
-      'datePublished': data.datePublished || new Date().toISOString(),
+      'datePublished': data.datePublished || (data.date ? new Date(data.date).toISOString() : '2026-06-24T00:00:00.000Z'),
       'author': {
         '@type': 'Person',
         'name': data.author
