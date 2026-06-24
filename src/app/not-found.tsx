@@ -51,7 +51,7 @@ export default function NotFound() {
             </Link>
 
             <a
-              href="tel:+18005550199"
+              href="tel:+923070984307"
               className="flex items-center justify-between p-3.5 rounded-2xl border border-slate-100 hover:border-brand-teal text-slate-700 hover:text-brand-blue transition-colors group font-bold text-xs sm:text-sm"
             >
               <div className="flex items-center gap-2">

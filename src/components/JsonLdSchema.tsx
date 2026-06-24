@@ -12,20 +12,20 @@ export default function JsonLdSchema({ type, data }: SchemaProps) {
     '@context': 'https://schema.org',
     '@name': 'Premium Dental Clinic',
     'image': 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop',
-    'telephone': '+1-800-555-0199',
+    'telephone': '+92-307-0984307',
     'email': 'appointments@premiumdental.com',
     'address': {
       '@type': 'PostalAddress',
-      'streetAddress': '123 Medical Plaza, Suite 400',
-      'addressLocality': 'New York',
-      'addressRegion': 'NY',
-      'postalCode': '10016',
-      'addressCountry': 'US'
+      'streetAddress': '123 Medical Plaza, Block 5, Clifton',
+      'addressLocality': 'Karachi',
+      'addressRegion': 'Sindh',
+      'postalCode': '75600',
+      'addressCountry': 'PK'
     },
     'geo': {
       '@type': 'GeoCoordinates',
-      'latitude': '40.748440',
-      'longitude': '-73.985664'
+      'latitude': '24.816223',
+      'longitude': '67.030612'
     },
     'url': 'https://premiumdental.com',
     'priceRange': '$$',

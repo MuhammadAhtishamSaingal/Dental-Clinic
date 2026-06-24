@@ -27,14 +27,14 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Premium Dental Clinic | General, Cosmetic & Implant Dentistry',
   description:
-    'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in New York.',
+    'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in Karachi, Pakistan.',
   alternates: {
     canonical: 'https://premiumdental.com',
   },
   openGraph: {
     title: 'Premium Dental Clinic | General, Cosmetic & Implant Dentistry',
     description:
-      'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in New York.',
+      'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in Karachi, Pakistan.',
     url: 'https://premiumdental.com',
     siteName: 'Premium Dental Clinic',
     images: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Premium Dental Clinic | General, Cosmetic & Implant Dentistry',
     description:
-      'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in New York.',
+      'Experience world-class, anxiety-free dental care. Offering dental implants, teeth whitening, veneers, Invisalign, and 24/7 emergency dental care in Karachi, Pakistan.',
     images: ['https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop'],
   },
 };
@@ -321,7 +321,7 @@ export default function Home() {
                   Visit Our Clinic
                 </h2>
                 <p className="text-slate-500 text-sm mt-6 leading-relaxed">
-                  Our state-of-the-art office is conveniently located in the center of Midtown Manhattan. We offer underground validation parking and full accessibility support.
+                  Our state-of-the-art office is conveniently located in Clifton, Karachi. We offer dedicated parking and full accessibility support.
                 </p>
 
                 {/* Details list */}
@@ -333,7 +333,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-brand-dark text-xs sm:text-sm">Location Address</h4>
                       <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                        123 Medical Plaza, Suite 400, New York, NY 10016
+                        123 Medical Plaza, Block 5, Clifton, Karachi, Pakistan
                       </p>
                     </div>
                   </div>
@@ -345,8 +345,8 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-brand-dark text-xs sm:text-sm">Booking Hotline</h4>
                       <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                        <a href="tel:+18005550199" className="hover:text-brand-teal transition-colors">
-                          +1 (800) 555-0199
+                        <a href="tel:+923070984307" className="hover:text-brand-teal transition-colors">
+                          +92 307 0984307
                         </a>
                       </p>
                     </div>
@@ -376,7 +376,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-brand-dark text-xs sm:text-sm">Clinic Working Hours</h4>
                       <p className="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
-                        Monday - Friday: 9:00 AM - 6:00 PM <br />
+                        Monday - Saturday: 9:00 AM - 6:00 PM <br />
                         Saturday: 9:00 AM - 2:00 PM <br />
                         <span className="text-brand-teal font-semibold">Sunday: Closed (Emergency Cases Only)</span>
                       </p>
@@ -405,7 +405,7 @@ export default function Home() {
             <div className="lg:col-span-7 rounded-[32px] overflow-hidden border border-slate-100 shadow-xl relative min-h-[350px]">
               {/* Google Maps iFrame */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4286129881643!2d-73.9882236845938!3d40.74844447932828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1652435759367!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.365319808383!2d67.0306126!3d24.8162232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33db0a9fd1d1d%3A0x86bb8be128d5781!2sClifton%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '350px' }}

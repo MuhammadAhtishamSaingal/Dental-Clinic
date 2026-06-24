@@ -9,7 +9,7 @@ import { MapPin, Phone, Mail, Clock, MessageSquare } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Contact Us | Premium Dental Clinic',
   description:
-    'Have questions or need assistance? Fill out our contact form, find our Midtown Manhattan clinic on Google Maps, or call our booking desk directly.',
+    'Have questions or need assistance? Fill out our contact form, find our Karachi clinic on Google Maps, or call our booking desk directly.',
   alternates: {
     canonical: 'https://premiumdental.com/contact',
   },
@@ -20,15 +20,15 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Phone Consultation',
-      value: '+1 (800) 555-0199',
-      href: 'tel:+18005550199',
+      value: '+92 307 0984307',
+      href: 'tel:+923070984307',
       label: 'Call Booking Hotline'
     },
     {
       icon: MessageSquare,
       title: 'Real-Time WhatsApp Chat',
-      value: '+1 (800) 555-0199',
-      href: 'https://wa.me/18005550199',
+      value: '+92 307 0984307',
+      href: 'https://wa.me/923070984307',
       label: 'Open WhatsApp Chat'
     },
     {
@@ -125,8 +125,8 @@ export default function ContactPage() {
                 <span>Clinic Location</span>
               </h3>
               <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
-                123 Medical Plaza, Suite 400, New York, NY 10016 <br />
-                <span className="text-slate-400 mt-1 block">Cross streets: 5th Ave and 34th St (Midtown)</span>
+                123 Medical Plaza, Block 5, Clifton, Karachi, Pakistan <br />
+                <span className="text-slate-400 mt-1 block">Location context: Clifton block 5 medical block</span>
               </p>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function ContactPage() {
         <section className="px-4 py-8 max-w-7xl mx-auto">
           <div className="rounded-[32px] overflow-hidden border border-slate-100 shadow-lg h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4286129881643!2d-73.9882236845938!3d40.74844447932828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1652435759367!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.365319808383!2d67.0306126!3d24.8162232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33db0a9fd1d1d%3A0x86bb8be128d5781!2sClifton%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}

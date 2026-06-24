@@ -26,11 +26,11 @@ export default function EmergencyBanner() {
         {/* Right actions */}
         <div className="flex items-center gap-4 flex-wrap justify-center">
           <a
-            href="tel:+18005550199"
+            href="tel:+923070984307"
             className="bg-white text-rose-600 hover:bg-rose-50 px-6 py-3 rounded-full font-bold text-sm transition-all shadow-md flex items-center gap-2 group"
           >
             <Phone className="w-4 h-4" />
-            <span>Call Now: +1 (800) 555-0199</span>
+            <span>Call Now: +92 307 0984307</span>
           </a>
           <Link
             href="/booking?emergency=true"

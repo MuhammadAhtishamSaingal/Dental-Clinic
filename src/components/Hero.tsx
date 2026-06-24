@@ -18,7 +18,7 @@ export default function Hero() {
           {/* Rating Trust Badge */}
           <div className="inline-flex items-center gap-1.5 bg-slate-900 text-white px-3.5 py-1.5 rounded-full mb-6 text-[11px] font-bold uppercase tracking-wider shadow-md">
             <Star className="w-3.5 h-3.5 text-[#FBBC05] fill-current" />
-            <span>Top-Rated Dental Clinic in New York</span>
+            <span>Top-Rated Dental Clinic in Karachi</span>
           </div>
 
           {/* Heading */}
@@ -40,7 +40,7 @@ export default function Hero() {
               <span>Book Appointment</span>
             </Link>
             <a
-              href="tel:+18005550199"
+              href="tel:+923070984307"
               className="border border-slate-200 hover:border-slate-300 text-slate-700 bg-white hover:bg-slate-50 px-8 py-4 rounded-full font-extrabold text-sm sm:text-md transition-colors flex items-center gap-2 cursor-pointer shadow-sm"
             >
               <Phone className="w-4 h-4 text-brand-teal" />

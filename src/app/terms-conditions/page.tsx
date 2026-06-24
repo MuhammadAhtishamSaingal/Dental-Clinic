@@ -55,7 +55,7 @@ export default function TermsConditionsPage() {
 
           <h2 className="text-xl font-extrabold text-brand-dark mt-8 pt-4">5. Governing Law</h2>
           <p>
-            These terms are governed by and construed in accordance with the laws of the State of New York, without regard to conflict of law principles. Any legal disputes arising from website usage will be resolved in courts located in New York, NY.
+            These terms are governed by and construed in accordance with the laws of Pakistan, without regard to conflict of law principles. Any legal disputes arising from website usage will be resolved in courts located in Karachi.
           </p>
         </div>
       </main>

@@ -73,7 +73,7 @@ export default function PrivacyPolicyPage() {
             <br />
             <strong>Email:</strong> privacy@premiumdental.com
             <br />
-            <strong>Phone:</strong> +1 (800) 555-0199
+            <strong>Phone:</strong> +92 307 0984307
           </p>
         </div>
       </main>

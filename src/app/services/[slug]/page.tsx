@@ -219,7 +219,7 @@ export default async function ServiceDetailsPage({ params }: Props) {
                 Schedule Consult
               </Link>
               <a
-                href="tel:+18005550199"
+                href="tel:+923070984307"
                 className="border border-slate-700 hover:border-slate-500 bg-slate-800 text-white font-bold px-8 py-3.5 rounded-full transition-colors cursor-pointer"
               >
                 Call Hotline

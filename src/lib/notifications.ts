@@ -53,7 +53,7 @@ export function generateAppointmentAdminEmailHtml(appointment: {
 }) {
   return `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
-      <h2 style="color: #0f4c81; border-bottom: 2px solid #00a896; padding-bottom: 10px;">New Appointment Booking Request</h2>
+      <h2 style="color: #0f4c81; border-bottom: 2px solid #0f4c81; padding-bottom: 10px;">New Appointment Booking Request</h2>
       <p>A new appointment has been scheduled through the website clinic booking system.</p>
       <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
         <tr style="background-color: #f8fafc;">
@@ -100,18 +100,18 @@ export function generateAppointmentPatientEmailHtml(appointment: {
 }) {
   return `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
-      <h2 style="color: #0f4c81; border-bottom: 2px solid #00a896; padding-bottom: 10px;">Appointment Received - Dental Clinic</h2>
+      <h2 style="color: #0f4c81; border-bottom: 2px solid #0f4c81; padding-bottom: 10px;">Appointment Received - Dental Clinic</h2>
       <p>Dear ${appointment.name},</p>
       <p>Thank you for requesting an appointment with us. We have received your booking request and will follow up shortly to confirm your scheduled slot.</p>
-      <div style="background-color: #f0fdfa; padding: 15px; border-radius: 6px; margin: 20px 0; border: 1px solid #ccfbf1;">
-        <h4 style="margin-top: 0; color: #0d9488;">Booking Summary:</h4>
+      <div style="background-color: #f0f6fa; padding: 15px; border-radius: 6px; margin: 20px 0; border: 1px solid #b9d2e7;">
+        <h4 style="margin-top: 0; color: #0f4c81;">Booking Summary:</h4>
         <ul style="list-style-type: none; padding-left: 0; margin-bottom: 0;">
           <li><strong>Service:</strong> ${appointment.service}</li>
           <li><strong>Date:</strong> ${appointment.preferredDate}</li>
           <li><strong>Preferred Time:</strong> ${appointment.preferredTime}</li>
         </ul>
       </div>
-      <p>If you need to change or cancel your appointment, please contact us immediately at <a href="tel:+18005550199">+1 (800) 555-0199</a> or reply to this email.</p>
+      <p>If you need to change or cancel your appointment, please contact us immediately at <a href="tel:+923070984307">+92 307 0984307</a> or reply to this email.</p>
       <p>Best regards,</p>
       <p><strong>The Care Team</strong><br>Dental Clinic Group</p>
     </div>
@@ -127,7 +127,7 @@ export function generateContactAdminEmailHtml(contact: {
 }) {
   return `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
-      <h2 style="color: #0f4c81; border-bottom: 2px solid #00a896; padding-bottom: 10px;">New Contact Form Inquiry</h2>
+      <h2 style="color: #0f4c81; border-bottom: 2px solid #0f4c81; padding-bottom: 10px;">New Contact Form Inquiry</h2>
       <p>A message has been submitted from the clinic website contact form.</p>
       <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
         <tr style="background-color: #f8fafc;">

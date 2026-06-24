@@ -52,11 +52,11 @@ export default function CTASection() {
             Book Appointment Online
           </Link>
           <a
-            href="tel:+18005550199"
+            href="tel:+923070984307"
             className="border border-slate-700 hover:border-slate-500 bg-slate-800/50 hover:bg-slate-800 text-white px-8 py-4 rounded-full font-extrabold text-sm sm:text-md transition-colors flex items-center gap-2 cursor-pointer"
           >
             <Phone className="w-4.5 h-4.5 text-brand-teal" />
-            <span>Call +1 (800) 555-0199</span>
+            <span>Call +92 307 0984307</span>
           </a>
         </div>
       </div>
