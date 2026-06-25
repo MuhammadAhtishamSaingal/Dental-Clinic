@@ -35,12 +35,11 @@ export default function Hero() {
 
           {/* Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#f3e883] leading-none">
-            Your Premium Home For <span className="text-white">Flawless Dentistry</span>
+            Welcome to <span className="text-white">Beverly Hills Clinic </span>
           </h1>
 
           <p className="text-slate-500 text-sm sm:text-md mt-6 leading-relaxed max-w-xl">
-            Experience state-of-the-art general, cosmetic, and surgical oral care inside a luxurious, comfortable clinic. Our board-certified specialists build healthy, dazzling smiles for life.
-          </p>
+            At Beverly Hills Clinic, we offer the highest standard of dental and aesthetic care in a serene, state-of-the-art environment. Our expert team is dedicated to providing personalized, exceptional service to every patient who walks through our doors.</p>
 
           {/* Core CTAs */}
           <div className="flex items-center gap-4 flex-wrap justify-center lg:justify-start mt-8 w-full">
