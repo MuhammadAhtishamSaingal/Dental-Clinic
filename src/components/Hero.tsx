@@ -78,7 +78,7 @@ export default function Hero() {
           <div className="relative w-full max-w-lg aspect-[4/3] sm:aspect-square rounded-[40px] overflow-hidden shadow-2xl shadow-brand-blue/10 border-4 border-white">
             <div
               className="w-full h-full relative transition-transform duration-100 ease-out"
-              style={{ transform: `translateY(${offset}px)` }}
+              style={{ transform: `translateY 0px)` }}
             >
               <Image
                 src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop"
