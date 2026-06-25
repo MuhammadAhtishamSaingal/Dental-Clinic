@@ -7,18 +7,23 @@
   --color-primary-200: #2c2d2e;
   --color-primary-300: #38393a;
   --color-primary-400: #57585a;
-  --color-primary-500: #f3e883;     /* Primary Gold color */
+  --color-primary-500: #f3e883;
+  /* Primary Gold color */
   --color-primary-600: #e5d96a;
   --color-primary-700: #c2b757;
   --color-primary-800: #051a2e;
   --color-primary-900: #020c17;
 
-  --color-brand-blue: #f3e883;     /* Remapped to Gold to avoid blue entirely */
+  --color-brand-blue: #f3e883;
+  /* Remapped to Gold to avoid blue entirely */
   --color-brand-blue-hover: #e5d96a;
-  --color-brand-teal: #f3e883;     /* Gold button accent */
-  --color-brand-teal-hover: #e5d96a; 
-  --color-brand-dark: #1b1c1d;     /* Matte Dark Theme Background */
-  --color-brand-light: #232425;    /* Matte Card Background */
+  --color-brand-teal: #f3e883;
+  /* Gold button accent */
+  --color-brand-teal-hover: #e5d96a;
+  --color-brand-dark: #1b1c1d;
+  /* Matte Dark Theme Background */
+  --color-brand-light: #232425;
+  /* Matte Card Background */
 
   /* Override standard slate colors to warm dark-theme neutrals */
   --color-slate-50: #232425;
@@ -27,10 +32,12 @@
   --color-slate-300: #57585a;
   --color-slate-400: #8c8b86;
   --color-slate-500: #b0aba0;
-  --color-slate-600: #d0cbbf;       /* Main text color */
+  --color-slate-600: #d0cbbf;
+  /* Main text color */
   --color-slate-700: #e5e2da;
   --color-slate-800: #f5f4f0;
-  --color-slate-900: #f3e883;       /* Golden accent highlights */
+  --color-slate-900: #f3e883;
+  /* Golden accent highlights */
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-display: 'Poppins', system-ui, -apple-system, sans-serif;
@@ -49,13 +56,22 @@ body {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
-  color: #f3e883 !important; /* Gold premium heading highlights */
+  color: #f3e883 !important;
+  /* Gold premium heading highlights */
 }
 
-p, span:not(.text-white):not(.text-slate-900):not(.text-black), label:not(.text-white) {
-  color: #d0cbbf; /* Soft warm neutral text */
+p,
+span:not(.text-white):not(.text-slate-900):not(.text-black),
+label:not(.text-white) {
+  color: #d0cbbf;
+  /* Soft warm neutral text */
 }
 
 /* Dark Matte Component Overrides */
@@ -67,7 +83,9 @@ p, span:not(.text-white):not(.text-slate-900):not(.text-black), label:not(.text-
   background-color: #1b1c1d !important;
 }
 
-.border-slate-50, .border-slate-100, .border-slate-200 {
+.border-slate-50,
+.border-slate-100,
+.border-slate-200 {
   border-color: rgba(243, 232, 131, 0.08) !important;
 }
 
@@ -96,37 +114,49 @@ p, span:not(.text-white):not(.text-slate-900):not(.text-black), label:not(.text-
 /* Custom Grid Background Overlay */
 .grid-bg {
   background-size: 40px 40px;
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(243, 232, 131, 0.015) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(243, 232, 131, 0.015) 1px, transparent 1px);
 }
 
 /* Card Hover Subtle Golden Glow & Interactions */
-.bg-white, .glass-card, .border-slate-100 {
+.bg-white,
+.glass-card,
+.border-slate-100 {
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.bg-white:hover, .glass-card:hover {
+.bg-white:hover,
+.glass-card:hover {
   box-shadow: 0 0 25px rgba(243, 232, 131, 0.15) !important;
   border-color: rgba(243, 232, 131, 0.25) !important;
   transform: translateY(-4px) scale(1.01) !important;
 }
 
 /* Dark Theme Input Fields */
-input, select, textarea {
+input,
+select,
+textarea {
   background-color: #1b1c1d !important;
   color: #e5e2da !important;
   border: 1px solid rgba(243, 232, 131, 0.12) !important;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
   border-color: #f3e883 !important;
   box-shadow: 0 0 12px rgba(243, 232, 131, 0.15) !important;
   outline: none !important;
 }
 
 /* Gold Premium Action Buttons Styling (Gold background, black text) */
-.bg-brand-teal, .bg-brand-blue, button[type="submit"], [href="/booking"], .bg-brand-blue-hover, .bg-brand-teal-hover {
+.bg-brand-teal,
+.bg-brand-blue,
+button[type="submit"],
+[href="/booking"],
+.bg-brand-blue-hover,
+.bg-brand-teal-hover {
   background-color: #f3e883 !important;
   color: #000000 !important;
   font-weight: 700 !important;
@@ -134,22 +164,31 @@ input:focus, select:focus, textarea:focus {
   box-shadow: 0 4px 12px rgba(243, 232, 131, 0.15) !important;
 }
 
-.bg-brand-teal:hover, .bg-brand-blue:hover, button[type="submit"]:hover, [href="/booking"]:hover, .bg-brand-teal-hover:hover {
-  background-color: #e5d96a !important; /* Rich gold hover */
+.bg-brand-teal:hover,
+.bg-brand-blue:hover,
+button[type="submit"]:hover,
+[href="/booking"]:hover,
+.bg-brand-teal-hover:hover {
+  background-color: #e5d96a !important;
+  /* Rich gold hover */
   color: #000000 !important;
   box-shadow: 0 0 22px rgba(243, 232, 131, 0.45) !important;
   transform: scale(1.04) !important;
 }
 
 /* Secondary outline buttons */
-.border-slate-200, .border-slate-300, .border-slate-400 {
+.border-slate-200,
+.border-slate-300,
+.border-slate-400 {
   border: 1px solid rgba(243, 232, 131, 0.25) !important;
   background-color: transparent !important;
   color: #f3e883 !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.border-slate-200:hover, .border-slate-300:hover, .border-slate-400:hover {
+.border-slate-200:hover,
+.border-slate-300:hover,
+.border-slate-400:hover {
   border-color: #f3e883 !important;
   background-color: rgba(243, 232, 131, 0.06) !important;
   color: #ffffff !important;
@@ -193,8 +232,13 @@ input:focus, select:focus, textarea:focus {
 
 /* Top Bar Marquee Scrolling Banner Animation */
 @keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-marquee {
@@ -204,10 +248,13 @@ input:focus, select:focus, textarea:focus {
 }
 
 /* Text Overrides for Form errors, success text, and badges */
-.text-rose-500, .text-rose-600 {
+.text-rose-500,
+.text-rose-600 {
   color: #f43f5e !important;
 }
-.text-emerald-500, .text-emerald-600 {
+
+.text-emerald-500,
+.text-emerald-600 {
   color: #10b981 !important;
 }
 
@@ -232,9 +279,17 @@ input:focus, select:focus, textarea:focus {
 
 /* Keyframes for micro-animations */
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .animate-float {
@@ -242,10 +297,51 @@ input:focus, select:focus, textarea:focus {
 }
 
 @keyframes pulse-subtle {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.9; transform: scale(1.01); }
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.01);
+  }
 }
 
 .animate-pulse-subtle {
   animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+span.text-white.tops {
+  color: black;
+}
+
+.learns {
+  color: black !important;
+}
+
+span.consalt {
+  color: black !important;
+}
+
+span.appoints {
+  color: black !important;
+}
+
+span.beautifil {
+  color: black !important;
+}
+
+span.reviewss {
+  color: black !important;
+}
+
+span.finsus {
+  color: black !important;
+}
+
+span.beautifil {
+  color: black !important;
 }

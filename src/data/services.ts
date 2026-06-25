@@ -44,7 +44,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'General Dentistry & Family Dental Care | Premium Clinic',
     seoDescription: 'Maintain a healthy smile with general dentistry services including routine exams, dental hygiene, digital X-rays, and custom family dental care plans.',
-    imageUrl: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'teeth-cleaning',
@@ -70,7 +70,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Professional Teeth Cleaning & Dental Hygiene | Premium Clinic',
     seoDescription: 'Get clean, polished teeth and fresh breath. Professional dental scaling and stain removal by certified hygienists.',
-    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'teeth-whitening',
@@ -96,7 +96,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Professional Teeth Whitening | Zoom & Laser Treatments',
     seoDescription: 'Achieve a brighter, radiant smile with in-office laser teeth whitening. Safe, fast, and clinically proven results in under an hour.',
-    imageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1588776814202-b230f2f458a2?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'dental-implants',
@@ -122,7 +122,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Dental Implants - Permanent Missing Teeth Replacement | Clinic',
     seoDescription: 'Restore your smile, speech, and chewing function with high-grade titanium dental implants. Fully customized crowns and advanced implant surgery.',
-    imageUrl: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'root-canal-treatment',
@@ -148,7 +148,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Pain-Free Root Canal Treatment & Endodontics | Premium Clinic',
     seoDescription: 'Relieve tooth pain and save your natural tooth. Pain-free root canal therapy using advanced rotary endodontics and bio-sealants.',
-    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'braces',
@@ -174,7 +174,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Traditional & Ceramic Dental Braces | Orthodontic Clinic',
     seoDescription: 'Achieve a perfectly aligned smile. Metal and cosmetic ceramic braces for children, teens, and adults. Custom bite correction treatments.',
-    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'invisalign',
@@ -200,7 +200,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Invisalign Clear Aligners | Invisible Orthodontics',
     seoDescription: 'Straighten your teeth discreetly with Invisalign. Removable clear aligners for adults and teens. Book a free 3D smile scan today.',
-    imageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'crowns',
@@ -226,7 +226,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Porcelain & Ceramic Dental Crowns | Premium Restorations',
     seoDescription: 'Restore damaged teeth with natural-looking porcelain dental crowns. Custom design, durable bonding, and full structural restoration.',
-    imageUrl: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'bridges',
@@ -252,7 +252,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Custom Dental Bridges | Missing Teeth Bridge Restoration',
     seoDescription: 'Bridge the gap left by missing teeth. Premium ceramic fixed dental bridges. Restore your smile, bite alignment, and chewing comfort.',
-    imageUrl: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'veneers',
@@ -278,7 +278,7 @@ export const servicesData: ServiceDetail[] = [
     ],
     seoTitle: 'Porcelain Veneers & Smile Makeovers | Premium Clinic',
     seoDescription: 'Transform your teeth with ultra-thin porcelain veneers. Correct stains, chips, gaps, and worn teeth with custom cosmetic veneers.',
-    imageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1200&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=600&auto=format&fit=crop'
   },
   {
     slug: 'dentures',

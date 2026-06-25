@@ -58,7 +58,7 @@ export default function GoogleReviews() {
               className="bg-brand-blue hover:bg-brand-blue-hover text-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-md transition-colors flex items-center gap-2 cursor-pointer"
             >
               <MapPin className="w-4 h-4 text-brand-teal" />
-              <span>Find us on Maps</span>
+              <span className='finsus'>Find us on Maps</span>
             </a>
             <a
               href="https://google.com/maps"
@@ -66,7 +66,7 @@ export default function GoogleReviews() {
               rel="noopener noreferrer"
               className="border border-slate-200 hover:border-slate-300 text-slate-700 bg-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-sm transition-colors flex items-center gap-2 cursor-pointer"
             >
-              <span>Write a Review</span>
+              <span className='reviewss'>Write a Review</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>

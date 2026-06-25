@@ -29,8 +29,8 @@ export default function Hero() {
         <div className={`lg:col-span-6 flex flex-col items-center lg:items-start text-center lg:text-left transition-all duration-800 transform ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           {/* Rating Trust Badge */}
           <div className="inline-flex items-center gap-1.5 bg-slate-900 text-white px-3.5 py-1.5 rounded-full mb-6 text-[11px] font-bold uppercase tracking-wider shadow-md">
-            <Star className="w-3.5 h-3.5 text-[#f3e883] fill-current" />
-            <span className="text-white">Top-Rated Dental Clinic in Karachi</span>
+            <Star className="w-3.5 h-3.5 text-[#000000] fill-current" />
+            <span className="text-white tops">Top-Rated Dental Clinic in Karachi</span>
           </div>
 
           {/* Heading */}
@@ -77,7 +77,7 @@ export default function Hero() {
         <div className={`lg:col-span-6 relative w-full flex justify-center transition-all duration-1000 transform ${loaded ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95'}`}>
           {/* Main Hero Image wrapper for parallax */}
           <div className="relative w-full max-w-lg aspect-[4/3] sm:aspect-square rounded-[40px] overflow-hidden shadow-2xl shadow-brand-blue/10 border-4 border-white">
-            <div 
+            <div
               className="w-full h-full relative transition-transform duration-100 ease-out"
               style={{ transform: `translateY(${offset}px)` }}
             >
@@ -99,7 +99,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-sm text-brand-dark">10,000+</span>
-              <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
+              <span className="text-[10px] beautifil text-slate-400 font-bold uppercase tracking-wider">
                 Beautiful Smiles Restored
               </span>
             </div>

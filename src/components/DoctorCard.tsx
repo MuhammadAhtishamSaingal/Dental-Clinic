@@ -62,7 +62,7 @@ export default function DoctorCard({ doctor }: DoctorCardProps) {
           className="w-full py-3 rounded-full bg-brand-blue hover:bg-brand-blue-hover text-white font-bold text-center text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-brand-blue/10"
         >
           <CalendarCheck className="w-4 h-4" />
-          <span>Book Appointment</span>
+          <span className='appoints'>Book Appointment</span>
         </Link>
       </div>
     </div>

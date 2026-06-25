@@ -177,7 +177,7 @@ export default function Home() {
         <EmergencyBanner />
 
         {/* Section 3: Comprehensive Dental Services (General, Cosmetic, Specialty) */}
-        <section className="py-24 px-4 bg-white reveal">
+        <section className="py-24 px-4 bg-[#1b1c1d] reveal">
           <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
